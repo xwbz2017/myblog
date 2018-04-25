@@ -1,5 +1,8 @@
 node_modules/
 *.log
 .idea/
-.deploy_git/
 public/
+.DS_Store
+Thumbs.db
+db.json
+.deploy*/
