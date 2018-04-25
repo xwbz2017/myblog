@@ -7,18 +7,18 @@ avatar:
   url: /static/images/kamuyi.jpg
 
 background:
-  background_color: '#ffffff'
+  background_color: '#f0f0f0'
 
   # Custom Background Picture
-  enable_picture: true
+  enable_picture: false
   url: /static/images/luckyman.jpg
   css_size: cover
   css_position: 50%
 
   # Gradient color
   gradient_color:
-    enable: false # switch to 'true' will make custom background picture lose efficacy
-    css_value: 'linear-gradient(to right, rgb(74, 135, 193), rgb(179, 177, 251))'
+    enable: true # switch to 'true' will make custom background picture lose efficacy
+    css_value: 'linear-gradient(to top, rgb(223, 236, 209), rgb(150, 199, 245))'
 
 
 # -------------------------------------------------------
@@ -29,7 +29,7 @@ menu:
   # Basic Menu
   Home: true
   Archives: true
-  Categories: false
+  Categories: true
   Tags: false
 
   # Custom Menu
@@ -64,9 +64,9 @@ blur:
     opacity_value: 0.4
 
   gaussian_radius:
-    top_navigator: 5 # 40px+ preferred
-    header: 30 # 5 ~ 50px preferred
-    footer: 40 # 5 ~ 100px preferred
+    top_navigator: 200 # 40px+ preferred
+    header: 150 # 5 ~ 50px preferred
+    footer: 100 # 5 ~ 100px preferred
 
   font:
     color: '#ffffff' # only affect the font color in the blur area.
@@ -92,7 +92,7 @@ social:
 social_icons:
   enable: true
   # icon name docs: http://fontawesome.io/icons/
-  github: fa-github-alt
+  github: fa-github
 #  weibo: fa-weibo
   email: fa-envelope
   wechat: fa-weixin
