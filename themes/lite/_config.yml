@@ -64,7 +64,7 @@ blur:
     opacity_value: 0.4
 
   gaussian_radius:
-    top_navigator: 50 # 40px+ preferred
+    top_navigator: 5 # 40px+ preferred
     header: 30 # 5 ~ 50px preferred
     footer: 40 # 5 ~ 100px preferred
 
@@ -119,14 +119,14 @@ page_404:
 
 # https://github.com/imsun/gitment#customize
 gitment:
-  enable: false
-  github_id: # your github id
-  repository_name: # your repository name
+  enable: true
+  github_id: xwbz2017 # your github id
+  repository_name: myblog-gitment # your repository name
 
   # client_id & secret will generated after register an OAuth App
   # reference: https://github.com/settings/applications/new
-  client_id:
-  client_secret:
+  client_id: c6ad9cf105fa0c8abcc0
+  client_secret: cc3a76946682f3461c3236432ab03bae0cd45a04
   per_page: 8 # comments per page
   max_comment_height: 250 # default 250px
 
